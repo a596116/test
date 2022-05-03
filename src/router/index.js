@@ -18,16 +18,6 @@ const router = createRouter({
       component: import("../views/admin.vue"),
     },
     {
-      path: "/2",
-      name: "222",
-      component: Login,
-    },
-    {
-      path: "/3",
-      name: "333",
-      component: aa,
-    },
-    {
       path: "/",
       redirect: "/home"
     },
